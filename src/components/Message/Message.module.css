@@ -1,0 +1,11 @@
+.message {
+    text-align: center;
+}
+
+.message.lose {
+    color: red;
+}
+
+.message.win {
+    color: green;
+}

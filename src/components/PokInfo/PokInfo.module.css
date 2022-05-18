@@ -1,0 +1,11 @@
+.pokName {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.Image {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}

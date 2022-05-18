@@ -31,3 +31,34 @@ body {
   justify-content: center;
   color: white;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  margin-top: 65px;
+}
+
+.pok-info {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  align-items: center;
+  min-width: 50vw;
+  min-height: 50vh;
+  margin: 20px;
+}
+
+.mgt-10 {
+  margin: 10px;
+}
+
+.loading-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}

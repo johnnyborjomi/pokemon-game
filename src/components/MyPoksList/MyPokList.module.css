@@ -1,0 +1,18 @@
+.pokList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 90vw;
+}
+
+.pokList li {
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 8px;
+    padding: 2px;
+}
+
+.pokList li img {
+    max-width: 30px;
+}
