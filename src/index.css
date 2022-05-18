@@ -1,0 +1,33 @@
+:root {
+  --w-width: 95vw;
+  --w-height: 95vh;
+}
+
+@media (min-width: 640px) {
+  :root {
+      --w-width: 70vw;
+      --w-height: 70vh;
+  }
+}
+
+* {
+  font-family: monospace, sans-serif;
+}
+
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
